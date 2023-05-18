@@ -1,0 +1,129 @@
+.class{
+    width: 80%;
+    margin: 25rem auto;
+    height: 50vh;
+}
+.myimage{
+    margin: 0 auto;
+    position: absolute;
+}
+
+.photo{
+    filter: brightness(50%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.photo:hover{
+    filter: brightness(110%);
+    transition: 0.2s;
+}
+
+.the-content{
+    margin: 0;
+    background-color: transparent;
+    position: relative;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+.title{
+    background-color: transparent;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.para{
+    position: relative;
+    float: right;
+    background: transparent;
+    align-items: end;
+    margin-right: -27rem;
+    margin-top: 26rem;
+    width: 200px;
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1360px) {
+    .class{
+        width: 90%;
+        margin: 20rem auto;
+        height: 40vh;
+    }
+    .para{
+        position: relative;
+        float: right;
+        background: transparent;
+        align-items: end;
+        margin-right: -20rem;
+        margin-top: 18rem;
+        width: 200px;
+        filter: brightness(110%);
+        cursor: pointer;
+    }
+    .the-content{
+        margin: 0;
+        background-color: transparent;
+        position: relative;
+        float: right;
+        margin-right: 10rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .class{
+        width: 90%;
+        margin: 25rem auto;
+        height: 30vh;
+    }
+    .para{
+        position: relative;
+        float: right;
+        background: transparent;
+        align-items: end;
+        margin-right: -20rem;
+        margin-top: 18rem;
+        width: 180px;
+        filter: brightness(110%);
+        cursor: pointer;
+    }
+    .the-content{
+        margin: 0;
+        background-color: transparent;
+        position: relative;
+        float: right;
+        margin-right: 6rem;
+        margin-top: 2rem;
+    }
+    .myimage{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .class{
+        width: 90%;
+        margin: 15rem auto;
+        height: 10vh;
+    }
+    .para{
+        position: relative;
+        float: right;
+        background: transparent;
+        align-items: end;
+        margin-right: -13rem;
+        margin-top: 10rem;
+        width: 130px;
+        filter: brightness(110%);
+        cursor: pointer;
+    }
+    .the-content{
+        margin: 0;
+        background-color: transparent;
+        position: relative;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 0rem;
+    }
+}

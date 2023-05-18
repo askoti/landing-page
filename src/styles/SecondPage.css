@@ -1,0 +1,240 @@
+.main{
+    width: 80%;
+    height: 70vh;
+    margin: 15rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.the-pic{
+    width: 50%;
+    margin: 0 auto;
+}
+.content{
+    width: 50%;
+    margin: 6rem 0;
+}
+
+.the-pic img{
+    width: 80%;
+}
+
+.rewiew{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.rewiew img{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.re h1{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.start{
+    color: #eb514d;
+}
+
+.title{
+    font-size: 50px;
+    margin-left: 10px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.description{
+    margin: 30px 60px;
+    font-size: 22px;
+    font-weight: 100;
+    color: #60626b;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 60px;
+}
+
+.txt{
+    color: #babbbc;
+
+}
+
+.myimg{
+   width: 50px;
+   margin: 0;
+}
+
+@media screen and (max-width: 1360px) {
+    .main{
+        width: 90%;
+        height: 70vh;
+        margin: 15rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+    .rewiew img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+    .re h1{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+    
+    .title{
+        font-size: 40px;
+        margin-left: 10px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    
+    .description{
+        margin: 30px 60px;
+        font-size: 18px;
+        font-weight: 100;
+        color: #60626b;
+    }
+    
+    .txt{
+        color: #babbbc;
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 1020px) {
+    .main{
+        width: 90%;
+        height: 70vh;
+        margin: 15rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .the-pic{
+        width: 50%;
+        margin: 0rem auto;
+    }
+
+    .the-pic img{
+        margin: 3rem auto;
+    }
+
+    .content{
+        width: 80%;
+        margin: 6rem auto;
+    }
+    
+    .rewiew img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+    .re h1{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+    
+    .title{
+        font-size: 40px;
+        margin-left: 10px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    
+    .description{
+        margin: 20px 40px;
+        font-size: 20px;
+        font-weight: 100;
+        color: #60626b;
+    }
+    
+    .txt{
+        color: #babbbc;
+        font-size: 18px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .main{
+        width: 90%;
+        height: 70vh;
+        margin: 15rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .the-pic{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .the-pic img{
+        width: 100%;
+        margin: 0rem auto;
+    }
+
+    .content{
+        width: 100%;
+        margin: 6rem auto;
+    }
+    
+    .rewiew img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+    .re h1{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+    
+    .title{
+        font-size: 32px;
+        margin-left: 10px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+    
+    .description{
+        margin: 20px 40px;
+        font-size: 17px;
+        font-weight: 100;
+        color: #60626b;
+    }
+    
+    .txt{
+        color: #babbbc;
+        font-size: 16px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 40px;
+    }   
+}
