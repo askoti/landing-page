@@ -22,7 +22,7 @@ const FirstPage = () => {
           that impress
         </h1>
         <p className="description" data-aos="fade-up">
-          As a junior web developer, I am passionate about creating websites
+          As a developer, I am passionate about creating websites
           that not only function flawlessly but also look beautiful. With my
           expertise in web design, HTML, CSS, and JavaScript, I can build
           websites that stand out from the crowd and leave a lasting impression

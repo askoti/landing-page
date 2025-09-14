@@ -32,7 +32,7 @@ const SecondPage = () => {
         <p className="description" data-aos="fade-down">
           In today's world, it's more important than ever to have a website that
           looks great and functions well on all devices, from desktop computers
-          to mobile phones. As a junior web developer, I specialize in building
+          to mobile phones. As a developer, I specialize in building
           responsive websites that adapt to any screen size, ensuring that your
           website is accessible to everyone.
         </p>
